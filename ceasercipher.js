@@ -49,7 +49,7 @@ function calculateNewIndex(letter, userKey, encode){
 }
 
 function codeLetter(letter, userKey, flag){
-  //deal with non letter like space or number
+  //deal with non letter like spce or number
   let letterRegEx = /[^a-z]/;
   
   if (letterRegEx.test(letter)){
